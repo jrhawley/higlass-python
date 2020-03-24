@@ -118,6 +118,8 @@ def display(
             will scroll together.
         zoom_syncs: A list of lists, each containing a list of views that
             will zoom together.
+        value_scale_syncs: A list of lists, each containing a (View, Track) tuple, a Track, or a str.
+            These Tracks will all have the same value scale when plotted.
         host: The host on which the internal higlass server will be running on.
         server_port: The port on which the internal higlass server will be running on.
         dark_mode: Whether to use dark mode or not.
